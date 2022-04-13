@@ -3,9 +3,11 @@
     border: 1px solid #95A0A7;
     box-sizing: border-box;
     border-radius: 8px;
-    margin: 0 auto;
+    margin: 100px auto 200px auto;
     display: flex;
     justify-content: center;
+    box-shadow: #FFE0B3 -10px 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;    ; */
 }
 
 .form-title {
@@ -28,7 +30,7 @@
     height: 55px;
     border: 1px solid #95A0A7;
     box-sizing: border-box;
-    /* border-radius: 5px; */
+    border-radius: 2px;
     margin-top: 9px;
     font-size: 17px;
     padding-left: 8px;
@@ -43,9 +45,10 @@
     border: 0;
     font-weight: 400;
     font-size: 21px;
+    cursor: pointer;
 }
 
-form p {
+.form-container p {
     text-align: center;
     font-weight: 400;
     font-size: 18px;
@@ -54,4 +57,26 @@ form p {
 .form-link {
     color: #FF9900;
     text-decoration: none;
+}
+
+.ddd {
+    display: flex;
+    align-items: center;
+}
+
+.ss {
+    width: 150px;
+    height: 0;
+}
+
+.form-submit-google {
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 415px;
+    height: 55px;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 20px;
 }
